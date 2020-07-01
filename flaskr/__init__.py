@@ -37,11 +37,3 @@ def create_app(test_config=None):
     app.add_url_rule("/", endpoint="index")
 
     return app
-
-
-# a simple page that says hello
-##def hello():
-# return 'Hello world'
-
-# return app
-
